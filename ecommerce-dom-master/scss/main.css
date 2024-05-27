@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  width: 100%;
+}
+
+.header_top {
+  display: flex;
+  align-items: center;
+}
+.header_top button {
+  font-family: Rubik;
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 0px 40px;
+  background-color: rgb(112, 192, 91);
+  color: #fff;
+  width: Fixed 140px px;
+  height: Hug 40px px;
+  gap: 10px;
+  border-radius: 4px;
+  padding: 8px;
+  padding-right: 13px;
+  opacity: 0px;
+  border: none;
+  cursor: pointer;
+}
+.header_top button img {
+  padding-right: 5px;
+}
+.header_top .yurak_dev {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.header_top .yurak_dev img {
+  cursor: pointer;
+}
+.header_top .yurak_dev .img_leki:hover {
+  background-color: red;
+  overflow: hidden;
+  cursor: pointer;
+}
+.header_top .yurak_dev p {
+  font-family: Rubik;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  color: rgb(65, 65, 65);
+}
+.header_top .header-righ {
+  display: flex;
+}
+.header_top .header-righ .header_left_selct {
+  display: flex;
+  gap: 10px;
+}
+.header_top .header_righ {
+  align-items: center;
+  gap: 24px;
+  display: flex;
+  margin-right: 11px;
+}
+.header_top .header_lefft {
+  display: flex;
+}
+.header_top .header_lefft .forimm {
+  padding-left: 16px;
+  padding-right: 40px;
+}
+.header_top .header_lefft .forimm .input-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 16px;
+  border-radius: 4px;
+  border: 1px solid rgb(112, 192, 91);
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.header_top .header_lefft .forimm .input-wrapper input {
+  border: none;
+  padding-left: 11px;
+}
+.header_top .header_lefft .forimm .input-wrapper img {
+  padding-left: 250px;
+  padding-right: 8px;
+}
+
+select {
+  border: none;
+}
+
+.sayt_logo {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+@media (max-width: 1234px) {
+  .catolog {
+    display: none;
+  }
+  .header_top {
+    display: flex;
+    align-items: center;
+  }
+  .header_top button {
+    font-family: Rubik;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 40px;
+    background-color: rgb(112, 192, 91);
+    color: #fff;
+    width: Fixed 140px px;
+    height: Hug 40px px;
+    gap: 10px;
+    border-radius: 4px;
+    padding: 8px;
+    padding-right: 13px;
+    opacity: 0px;
+    border: none;
+    cursor: pointer;
+  }
+  .header_top button img {
+    padding-left: 4px;
+    padding-right: 0px;
+  }
+  .header_top .yurak_dev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  .header_top .yurak_dev p {
+    font-family: Rubik;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: rgb(65, 65, 65);
+  }
+  .header_top .header-righ {
+    display: flex;
+  }
+  .header_top .header-righ .header_left_selct {
+    display: flex;
+    gap: 10px;
+  }
+  .header_top .header_righ {
+    align-items: center;
+    gap: 24px;
+    display: flex;
+    margin-right: 11px;
+  }
+  .header_top .header_lefft {
+    display: flex;
+  }
+  .header_top .header_lefft .forimm {
+    padding-left: 16px;
+    padding-right: 20px;
+  }
+  .header_top .header_lefft .forimm .input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(112, 192, 91);
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .header_top .header_lefft .forimm .input-wrapper input {
+    border: none;
+    padding-left: 11px;
+  }
+  .header_top .header_lefft .forimm .input-wrapper img {
+    padding-left: 100px;
+    padding-right: 8px;
+  }
+  select {
+    border: none;
+    display: none;
+  }
+  .header_top {
+    display: flex;
+    align-items: center;
+  }
+  .header_top button {
+    font-family: Rubik;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 10px;
+    background-color: rgb(112, 192, 91);
+    color: #fff;
+    width: Fixed 140px px;
+    height: Hug 40px px;
+    gap: 10px;
+    border-radius: 4px;
+    padding: 8px;
+    padding-right: 13px;
+    opacity: 0px;
+    border: none;
+  }
+}
+@media (max-width: 914px) {
+  .sayt_logo .sayt_logo_right {
+    display: none;
+  }
+  .header_lefft {
+    display: flex;
+  }
+  .header_lefft .forimm {
+    padding-left: 16px;
+    padding-right: 20px;
+  }
+  .header_lefft .forimm .input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(112, 192, 91);
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .header_lefft .forimm .input-wrapper input {
+    border: none;
+    padding-left: 11px;
+  }
+  .header_lefft .forimm .input-wrapper img {
+    padding-left: 100px;
+    padding-right: 8px;
+  }
+}
+@media (max-width: 758px) {
+  .header_righ {
+    align-items: center;
+    gap: 24px;
+    display: none;
+    margin-right: 11px;
+  }
+  .header_righ .yurak_dev {
+    border: 1px solid red;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  .header_righ .yurak_dev p {
+    font-family: Rubik;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: rgb(65, 65, 65);
+  }
+}
+@media (max-width: 590px) {
+  .header-righ {
+    display: flex;
+  }
+  .header-righ .header_left_selct {
+    display: none;
+    gap: 10px;
+  }
+  .header-righ img {
+    display: none;
+  }
+}
+@font-face {
+  font-family: Rubik;
+  src: url("../assets/fonts/Rubik-Light.ttf");
+}
+.container {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}/*# sourceMappingURL=main.css.map */
